@@ -59,3 +59,6 @@ C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebAp
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\obj\Debug\netcoreapp3.1\GoodFoodWebApi.dll
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\obj\Debug\netcoreapp3.1\GoodFoodWebApi.pdb
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\obj\Debug\netcoreapp3.1\GoodFoodWebApi.genruntimeconfig.cache
+C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\EFCorePostgresConventions.dll
+C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll

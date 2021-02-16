@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
             {
                 for (int i = 0; i < orderAmount; i++)
                 {
-                    orders.Add(_context.Orders.FirstOrDefault(order => order.OrderId == _context.Orders.Count()-1-i));
+                    orders.Add(_context.Orders.FirstOrDefault(order => order.OrderId == _context.Orders.Count()-i));
                 }
 
                 return Ok(orders);

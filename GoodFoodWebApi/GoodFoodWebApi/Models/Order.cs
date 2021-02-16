@@ -8,15 +8,22 @@ namespace WebApplication1.Models
         [Key]
         [JsonPropertyName("orderId")]
         public int OrderId { get; set; }
+        [Required]
         [JsonPropertyName("isPickUpOnPoint")]
         public bool IsPickUpOnPoint { get; set; }
         [JsonPropertyName("address")]
         public string Address { get; set; }
+        [Required]
         [JsonPropertyName("customerEmail")]
         public string CustomerEmail { get; set; }
+        [Required]
+        [JsonPropertyName("customerName")]
+        public string CustomerName { get; set; }
+        [Required]
         [JsonPropertyName("customerPhoneNumber")]
         public string CustomerPhoneNumber { get; set; }
+        [Required]
         [JsonPropertyName("orderTotalPrice")]
-        public int OrderTotalPrice { get; set; }
+        public double OrderTotalPrice { get; set; }
     }
 }

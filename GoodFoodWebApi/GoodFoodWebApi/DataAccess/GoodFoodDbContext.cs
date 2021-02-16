@@ -10,7 +10,7 @@ namespace WebApplication1.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data source = GoodFood.db");
+            optionsBuilder.UseNpgsql("SERVER=goodfooddb.postgres.database.azure.com;Database=goodfooddb;Port=5432;Username=goodFood_deploy;Password=Domino3228;SslMode=Require");
             optionsBuilder.EnableSensitiveDataLogging();
         }
     }

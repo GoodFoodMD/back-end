@@ -17,13 +17,13 @@
         <e p="DataAccess" t="Include">
           <e p="GoodFoodDBContext.cs" t="Include" />
         </e>
-        <e p="GoodFood.db" t="Include" />
+        <e p="Dockerfile" t="Include" />
         <e p="GoodFood.db-shm" t="Include" />
         <e p="GoodFood.db-wal" t="Include" />
         <e p="GoodFoodWebApi.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20210216130330_IntialCreate.cs" t="Include" />
-          <e p="20210216130330_IntialCreate.Designer.cs" t="Include" />
+          <e p="20210216210052_InitialCreate.cs" t="Include" />
+          <e p="20210216210052_InitialCreate.Designer.cs" t="Include" />
           <e p="GoodFoodDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

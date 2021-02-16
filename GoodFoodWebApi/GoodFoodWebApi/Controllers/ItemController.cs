@@ -22,11 +22,11 @@ namespace WebApplication1.Controllers
 
         [HttpGet]
         [Route("/api/getItems")]
-        public async Task<ActionResult<List<Item>>> GetItemsByCategory([FromQuery] string category)
+        public async Task<ActionResult<List<Item>>> GetItemsByCategory([FromQuery] int categoryId)
         {
             try
             {
-                List<Item> searchedItems = _context.Items.Where(item => item.ItemCategory.Equals(category)).ToList();
+                List<Item> searchedItems = _context.Items.Where(item => item.ItemCategory == categoryId).ToList();
                 return Ok(searchedItems);
             }
             catch (Exception e)

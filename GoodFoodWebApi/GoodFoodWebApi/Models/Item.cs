@@ -13,10 +13,10 @@ namespace WebApplication1.Models
         public string ItemLabel { get; set; }
         [Required]
         [JsonPropertyName("itemPrice")]
-        public int ItemPrice { get; set; }
+        public double ItemPrice { get; set; }
         [Required]
-        [JsonPropertyName("itemCategory")]
-        public string ItemCategory { get; set; }
+        [JsonPropertyName("itemCategoryId")]
+        public int ItemCategory { get; set; }
         [JsonPropertyName("itemDescription")]
         public string ItemDescription { get; set; }
         [JsonPropertyName("itemPictureUrl")]
