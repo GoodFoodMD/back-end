@@ -38,6 +38,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [Route("/api/postItem")]
         public async Task<ActionResult<Item>> PostItem([FromBody] Item item)
         {
             if (!ModelState.IsValid)
@@ -58,6 +59,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpDelete]
+        [Route("/api/deleteItem")]
         public async Task<ActionResult<int>> Delete([FromQuery] int itemId)
         {
             try

@@ -13,7 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87bc456f-95a1-4b9e-9e3f-52d9b5d0c33d" name="Default Changelist" comment="" />
+    <list default="true" id="87bc456f-95a1-4b9e-9e3f-52d9b5d0c33d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/ItemController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/OrderController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613475801689</updated>
       <workItem from="1613475810746" duration="2641000" />
-      <workItem from="1613478699918" duration="1976000" />
+      <workItem from="1613478699918" duration="2389000" />
     </task>
     <servers />
   </component>

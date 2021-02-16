@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet]
+        [Route("/api/getOrder")]
         public async Task<ActionResult<List<Order>>> GetOrders([FromQuery] int orderAmount)
         {
             List<Order> orders = new List<Order>();
@@ -40,6 +41,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
+        [Route("/api/postOrder")]
         public async Task<ActionResult<Order>> PostOrder([FromBody] Order order)
         {
             if (!ModelState.IsValid)
