@@ -39,7 +39,7 @@ namespace WebApplication1
             }
             app.UseRouting();
             app.UseCors("foo");
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
