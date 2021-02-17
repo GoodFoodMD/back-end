@@ -32,9 +32,10 @@ namespace WebApplication1
             {
                 options.AddPolicy("foo",
                     builder =>
-                    {
+                    {   builder.WithOrigins("http://localhost:4200/")
+                        .SetIsOriginAllowed((host) => true)
                         // Not a permanent solution, but just trying to isolate the problem
-                        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                        .AllowAnyMethod().AllowAnyHeader();
                     });
             });
         }
