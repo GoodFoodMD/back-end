@@ -30,10 +30,12 @@ namespace WebApplication1
             services.AddDbContext<GoodFoodDbContext>();
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
+                options.AddPolicy("foo",
+                    builder =>
+                    {
+                        // Not a permanent solution, but just trying to isolate the problem
+                        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                    });
             });
         }
 
@@ -44,8 +46,10 @@ namespace WebApplication1
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseCors("CorsPolicy");
+            app.UseCors("foo");
             
 
             app.UseAuthorization();
