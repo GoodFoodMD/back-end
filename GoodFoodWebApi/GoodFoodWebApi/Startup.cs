@@ -28,6 +28,13 @@ namespace WebApplication1
         {
             services.AddControllers();
             services.AddDbContext<GoodFoodDbContext>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,8 +45,8 @@ namespace WebApplication1
                 app.UseDeveloperExceptionPage();
             }
             app.UseRouting();
-            app.UseCors("ApiCorsPolicy");
-            app.UseHttpsRedirection();
+            app.UseCors("CorsPolicy");
+            
 
             app.UseAuthorization();
 

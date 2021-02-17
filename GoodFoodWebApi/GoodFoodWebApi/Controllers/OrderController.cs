@@ -10,7 +10,6 @@ using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
     [ApiController]
-    [EnableCors("MyPolicy")]
     [Route("[controller]")]
     public class OrderController : ControllerBase
     {
