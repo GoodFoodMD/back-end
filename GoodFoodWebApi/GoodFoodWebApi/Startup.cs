@@ -37,10 +37,9 @@ namespace WebApplication1
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseHttpsRedirection();
-
             app.UseRouting();
+            app.UseCors("foo");
 
             app.UseAuthorization();
 
