@@ -38,8 +38,8 @@ namespace WebApplication1
                 app.UseDeveloperExceptionPage();
             }
             app.UseRouting();
-            app.UseCors("foo");
-            //app.UseHttpsRedirection();
+            app.UseCors("ApiCorsPolicy");
+            app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
