@@ -1,6 +1,5 @@
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\GoodFoodWebApi.exe
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\GoodFoodWebApi.deps.json
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\GoodFoodWebApi.runtimeconfig.json
@@ -62,3 +61,4 @@ C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebAp
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\EFCorePostgresConventions.dll
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Jenia\Documents\GitHub\back-end-goodFoodMD\GoodFoodWebApi\GoodFoodWebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\GoodFoodWebApi.styles.css
