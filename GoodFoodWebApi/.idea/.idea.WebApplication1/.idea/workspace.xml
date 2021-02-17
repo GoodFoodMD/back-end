@@ -15,7 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87bc456f-95a1-4b9e-9e3f-52d9b5d0c33d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <updated>1613475801689</updated>
       <workItem from="1613475810746" duration="2641000" />
       <workItem from="1613478699918" duration="11237000" />
-      <workItem from="1613519916361" duration="1289000" />
+      <workItem from="1613519916361" duration="1605000" />
     </task>
     <servers />
   </component>
