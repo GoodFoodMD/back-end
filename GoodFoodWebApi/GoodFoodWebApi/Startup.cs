@@ -29,15 +29,13 @@ namespace WebApplication1
             services.AddControllers();
             services.AddDbContext<GoodFoodDbContext>();
             services.AddCors(options =>
-            {
-                options.AddPolicy("foo",
-                    builder =>
-                    {   builder.WithOrigins("http://localhost:4200/")
-                        .SetIsOriginAllowed((host) => true)
-                        // Not a permanent solution, but just trying to isolate the problem
-                        .AllowAnyMethod().AllowAnyHeader();
-                    });
-            });
+    {
+        options.AddPolicy("AllowAllOriginsPolicy", // I introduced a string constant just as a label "AllowAllOriginsPolicy"
+        builder =>
+        {
+            builder.AllowAnyOrigin();
+        });
+    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,11 +46,10 @@ namespace WebApplication1
                 app.UseDeveloperExceptionPage();
             }
 
-            
-            app.UseRouting();
-            app.UseCors("foo");
+    
             app.UseHttpsRedirection();
-            
+            app.UseRouting();
+            app.UseCors("AllowAllOriginsPolicy");
 
             app.UseAuthorization();
 

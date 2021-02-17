@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jenia\\Documents\\GitHub\\back-end-goodFoodMD\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj": {}
+    "C:\\Users\\DUNAI\\good-food\\back-end\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jenia\\Documents\\GitHub\\back-end-goodFoodMD\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj": {
+    "C:\\Users\\DUNAI\\good-food\\back-end\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jenia\\Documents\\GitHub\\back-end-goodFoodMD\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\DUNAI\\good-food\\back-end\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj",
         "projectName": "GoodFoodWebApi",
-        "projectPath": "C:\\Users\\Jenia\\Documents\\GitHub\\back-end-goodFoodMD\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj",
-        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jenia\\Documents\\GitHub\\back-end-goodFoodMD\\GoodFoodWebApi\\GoodFoodWebApi\\obj\\",
+        "projectPath": "C:\\Users\\DUNAI\\good-food\\back-end\\GoodFoodWebApi\\GoodFoodWebApi\\GoodFoodWebApi.csproj",
+        "packagesPath": "C:\\Users\\DUNAI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DUNAI\\good-food\\back-end\\GoodFoodWebApi\\GoodFoodWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DUNAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
