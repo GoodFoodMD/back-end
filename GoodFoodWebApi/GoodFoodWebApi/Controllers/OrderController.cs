@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.DataAccess;
 using WebApplication1.Models;
@@ -9,6 +10,7 @@ using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
     [ApiController]
+    [EnableCors("MyPolicy")]
     [Route("[controller]")]
     public class OrderController : ControllerBase
     {
