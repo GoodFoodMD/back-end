@@ -24,6 +24,8 @@
         <e p="Migrations" t="Include">
           <e p="20210219123512_InitialCreate.cs" t="Include" />
           <e p="20210219123512_InitialCreate.Designer.cs" t="Include" />
+          <e p="20210219150929_secondMig.cs" t="Include" />
+          <e p="20210219150929_secondMig.Designer.cs" t="Include" />
           <e p="GoodFoodDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
