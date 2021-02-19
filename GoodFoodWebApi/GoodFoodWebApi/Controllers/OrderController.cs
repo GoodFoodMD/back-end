@@ -30,7 +30,7 @@ namespace WebApplication1.Controllers
             var lastOrder = await _context.Orders.OrderByDescending(p => p.OrderId).FirstOrDefaultAsync();
             try
             {
-                for (int i = 0; i < lastOrder.OrderId; i++)
+                for (int i = 0; i < orderAmount; i++)
                 {
                     var order = await _context.Orders.FirstOrDefaultAsync(o =>
                         o.OrderId == lastOrder.OrderId-i);
