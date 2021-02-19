@@ -28,6 +28,6 @@ namespace WebApplication1.Models
         public double OrderTotalPrice { get; set; }
         [Required]
         [JsonPropertyName("orderItems")]
-        public List<Item> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
     }
 }

@@ -29,6 +29,7 @@
         <e p="Models" t="Include">
           <e p="Item.cs" t="Include" />
           <e p="Order.cs" t="Include" />
+          <e p="OrderItem.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

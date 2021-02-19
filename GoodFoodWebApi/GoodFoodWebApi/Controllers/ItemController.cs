@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
         {
             try
             {
-                List<Item> searchedItems = _context.Items.Where(item => item.ItemCategory == categoryId).ToList();
+                List<Item> searchedItems = _context.Items.Where(item => item.ItemCategoryId == categoryId).ToList();
                 return Ok(searchedItems);
             }
             catch (Exception e)

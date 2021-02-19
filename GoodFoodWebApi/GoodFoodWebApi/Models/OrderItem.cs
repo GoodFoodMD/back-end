@@ -3,9 +3,11 @@ using System.Text.Json.Serialization;
 
 namespace WebApplication1.Models
 {
-    public class Item
+    public class OrderItem
     {
         [Key]
+        [JsonPropertyName("orderItemId")]
+        public int OrderItemId { get; set; }
         [JsonPropertyName("itemId")]
         public int ItemId { get; set; }
         [Required]
@@ -16,10 +18,11 @@ namespace WebApplication1.Models
         public double ItemPrice { get; set; }
         [Required]
         [JsonPropertyName("itemCategoryId")]
-        public int ItemCategoryId { get; set; }
+        public int ItemCategory { get; set; }
         [JsonPropertyName("itemDescription")]
         public string ItemDescription { get; set; }
         [JsonPropertyName("itemPictureUrl")]
         public string ItemPictureUrl { get; set; }
+        
     }
 }

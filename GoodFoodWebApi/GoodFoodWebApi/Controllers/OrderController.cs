@@ -35,7 +35,10 @@ namespace WebApplication1.Controllers
 
                 foreach (var order in orders)
                 {
-                    _context.Entry(order).Collection(o => o.OrderItems).Load();
+                    if (order!=null)
+                    {
+                        _context.Entry(order).Collection(o => o.OrderItems).Load();
+                    }
                 }
 
                 return Ok(orders);
