@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.DataAccess;
 using WebApplication1.Models;
 
@@ -26,18 +27,24 @@ namespace WebApplication1.Controllers
         public async Task<ActionResult<List<Order>>> GetOrders([FromQuery] int orderAmount)
         {
             List<Order> orders = new List<Order>();
+            var lastOrder = await _context.Orders.OrderByDescending(p => p.OrderId).FirstOrDefaultAsync();
             try
             {
-                for (int i = 0; i < orderAmount; i++)
+                for (int i = 0; i < lastOrder.OrderId; i++)
                 {
-                    orders.Add(_context.Orders.FirstOrDefault(order => order.OrderId == _context.Orders.Count()-i));
+                    var order = await _context.Orders.FirstOrDefaultAsync(o =>
+                        o.OrderId == lastOrder.OrderId-i);
+                    if (order != null)
+                    {
+                        orders.Add(order);
+                    }
                 }
 
                 foreach (var order in orders)
                 {
                     if (order!=null)
                     {
-                        _context.Entry(order).Collection(o => o.OrderItems).Load();
+                        await _context.Entry(order).Collection(o => o.OrderItems).LoadAsync();
                     }
                 }
 
