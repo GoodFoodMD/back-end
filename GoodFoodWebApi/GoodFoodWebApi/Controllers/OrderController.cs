@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.DataAccess;
@@ -19,7 +20,7 @@ namespace WebApplication1.Controllers
         {
             _context = goodFoodDbContext;
         }
-
+        
         [HttpGet]
         [Route("/api/getOrder")]
         public async Task<ActionResult<List<Order>>> GetOrders([FromQuery] int orderAmount)
@@ -32,6 +33,11 @@ namespace WebApplication1.Controllers
                     orders.Add(_context.Orders.FirstOrDefault(order => order.OrderId == _context.Orders.Count()-i));
                 }
 
+                foreach (var order in orders)
+                {
+                    _context.Entry(order).Collection(o => o.OrderItems).Load();
+                }
+
                 return Ok(orders);
             }
             catch (Exception e)
@@ -40,7 +46,7 @@ namespace WebApplication1.Controllers
                 return StatusCode(500, e.Message);
             }
         }
-
+        
         [HttpPost]
         [Route("/api/postOrder")]
         public async Task<ActionResult<Order>> PostOrder([FromBody] Order order)

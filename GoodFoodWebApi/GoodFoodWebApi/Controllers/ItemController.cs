@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +21,7 @@ namespace WebApplication1.Controllers
         {
             _context = goodFoodDbContext;
         }
-
+        
         [HttpGet]
         [Route("/api/getItems")]
         public async Task<ActionResult<List<Item>>> GetItemsByCategory([FromQuery] int categoryId)
@@ -37,7 +38,7 @@ namespace WebApplication1.Controllers
             }
             
         }
-
+        
         [HttpPost]
         [Route("/api/postItem")]
         public async Task<ActionResult<Item>> PostItem([FromBody] Item item)
@@ -59,6 +60,7 @@ namespace WebApplication1.Controllers
             }
         }
 
+        
         [HttpDelete]
         [Route("/api/deleteItem")]
         public async Task<ActionResult<int>> Delete([FromQuery] int itemId)

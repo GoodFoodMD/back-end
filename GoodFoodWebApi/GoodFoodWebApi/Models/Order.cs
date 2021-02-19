@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace WebApplication1.Models
@@ -9,8 +10,8 @@ namespace WebApplication1.Models
         [JsonPropertyName("orderId")]
         public int OrderId { get; set; }
         [Required]
-        [JsonPropertyName("isPickUpOnPoint")]
-        public bool IsPickUpOnPoint { get; set; }
+        [JsonPropertyName("orderType")]
+        public string OrderType { get; set; }
         [JsonPropertyName("address")]
         public string Address { get; set; }
         [Required]
@@ -25,5 +26,8 @@ namespace WebApplication1.Models
         [Required]
         [JsonPropertyName("orderTotalPrice")]
         public double OrderTotalPrice { get; set; }
+        [Required]
+        [JsonPropertyName("orderItems")]
+        public List<Item> OrderItems { get; set; }
     }
 }

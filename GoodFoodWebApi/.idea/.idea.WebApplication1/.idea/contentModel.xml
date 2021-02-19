@@ -22,8 +22,8 @@
         <e p="GoodFood.db-wal" t="Include" />
         <e p="GoodFoodWebApi.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20210216210052_InitialCreate.cs" t="Include" />
-          <e p="20210216210052_InitialCreate.Designer.cs" t="Include" />
+          <e p="20210219123512_InitialCreate.cs" t="Include" />
+          <e p="20210219123512_InitialCreate.Designer.cs" t="Include" />
           <e p="GoodFoodDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

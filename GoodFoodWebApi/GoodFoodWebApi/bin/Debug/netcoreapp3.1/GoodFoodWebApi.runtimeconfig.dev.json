@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\DUNAI\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\DUNAI\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\Jenia\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Jenia\\.nuget\\packages"
     ]
   }
 }
