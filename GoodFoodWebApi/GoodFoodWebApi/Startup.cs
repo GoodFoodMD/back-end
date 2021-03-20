@@ -36,19 +36,20 @@ namespace WebApplication1
             services.AddControllers();
             services.AddDbContext<GoodFoodDbContext>();
             services.AddCors(options =>
-    {
-            options.AddPolicy("AllowAllOriginsPolicy", // I introduced a string constant just as a label "AllowAllOriginsPolicy"
-            builder =>
             {
-            builder
-                .AllowCredentials()
-                .WithOrigins(
-                    "http://localhost:4200")
-                .SetIsOriginAllowedToAllowWildcardSubdomains()
-                .AllowAnyHeader()
-                .AllowAnyMethod();
+                options.AddPolicy(
+                    "AllowAllOriginsPolicy", // I introduced a string constant just as a label "AllowAllOriginsPolicy"
+                    builder =>
+                    {
+                        builder
+                            .AllowCredentials()
+                            .WithOrigins(
+                                "http://localhost:4200")
+                            .SetIsOriginAllowedToAllowWildcardSubdomains()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
             });
-    }       );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +59,7 @@ namespace WebApplication1
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();

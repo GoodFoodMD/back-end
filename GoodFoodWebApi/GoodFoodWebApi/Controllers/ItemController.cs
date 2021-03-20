@@ -21,7 +21,7 @@ namespace WebApplication1.Controllers
         {
             _context = goodFoodDbContext;
         }
-        
+
         [HttpGet]
         [Route("/api/getItems")]
         public async Task<ActionResult<List<Item>>> GetItemsByCategory([FromQuery] int categoryId)
@@ -36,9 +36,8 @@ namespace WebApplication1.Controllers
                 Console.WriteLine(e);
                 return StatusCode(500, e.Message);
             }
-            
         }
-        
+
         [HttpPost]
         [Route("/api/postItem")]
         public async Task<ActionResult<Item>> PostItem([FromBody] Item item)
@@ -47,6 +46,7 @@ namespace WebApplication1.Controllers
             {
                 return BadRequest(ModelState);
             }
+
             try
             {
                 var itemWithProperId = _context.Items.Add(item).Entity;
@@ -60,7 +60,7 @@ namespace WebApplication1.Controllers
             }
         }
 
-        
+
         [HttpDelete]
         [Route("/api/deleteItem")]
         public async Task<ActionResult<int>> Delete([FromQuery] int itemId)
