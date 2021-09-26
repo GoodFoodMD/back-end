@@ -53,7 +53,7 @@ namespace WebApplication1.Controllers
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return StatusCode(500, e.Message);
+                return new List<Order>();
             }
         }
         

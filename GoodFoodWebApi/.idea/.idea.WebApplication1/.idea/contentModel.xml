@@ -18,14 +18,11 @@
           <e p="GoodFoodDBContext.cs" t="Include" />
         </e>
         <e p="Dockerfile" t="Include" />
-        <e p="GoodFood.db-shm" t="Include" />
-        <e p="GoodFood.db-wal" t="Include" />
+        <e p="GoodFood.db" t="Include" />
         <e p="GoodFoodWebApi.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20210219123512_InitialCreate.cs" t="Include" />
-          <e p="20210219123512_InitialCreate.Designer.cs" t="Include" />
-          <e p="20210219150929_secondMig.cs" t="Include" />
-          <e p="20210219150929_secondMig.Designer.cs" t="Include" />
+          <e p="20210926192707_initialCreate.cs" t="Include" />
+          <e p="20210926192707_initialCreate.Designer.cs" t="Include" />
           <e p="GoodFoodDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -43,6 +40,25 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="GoodFoodWebApi20210221152625 - Web Deploy.pubxml" t="Include" />
+            <e p="GoodFoodWebApi20210221213225 - Web Deploy.pubxml" t="Include" />
+            <e p="GoodFoodWebApi20210221215009 - Web Deploy.pubxml" t="Include" />
+          </e>
+          <e p="ServiceDependencies" t="Include">
+            <e p="GoodFoodWebApi20210221152625 - Web Deploy" t="Include">
+              <e p="profile.arm.json" t="Include" />
+            </e>
+            <e p="GoodFoodWebApi20210221213225 - Web Deploy" t="Include">
+              <e p="profile.arm.json" t="Include" />
+            </e>
+            <e p="GoodFoodWebApi20210221213225 - Web Deploy1" t="Include">
+              <e p="profile.arm.json" t="Include" />
+            </e>
+            <e p="GoodFoodWebApi20210221215009 - Web Deploy" t="Include">
+              <e p="profile.arm.json" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

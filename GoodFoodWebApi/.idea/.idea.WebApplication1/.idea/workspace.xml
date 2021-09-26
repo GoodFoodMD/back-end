@@ -14,7 +14,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87bc456f-95a1-4b9e-9e3f-52d9b5d0c33d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/WebApplication1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WebApplication1/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/DataAccess/GoodFoodDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/DataAccess/GoodFoodDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/GoodFood.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/GoodFood.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/GoodFoodWebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/GoodFoodWebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/20210219123512_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/20210219123512_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/20210219150929_secondMig.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/20210219150929_secondMig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/GoodFoodDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Migrations/GoodFoodDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/bin/Debug/netcoreapp3.1/GoodFoodWebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/Debug/netcoreapp3.1/GoodFoodWebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/GoodFoodWebApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFoodWebApi/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +62,16 @@
         <option value="$PROJECT_DIR$/WebApplication1/DataAccess/GoodFoodDbContext.cs" />
         <option value="$PROJECT_DIR$/WebApplication1/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication1/Controllers/ItemController.cs" />
-        <option value="$PROJECT_DIR$/GoodFoodWebApi/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/GoodFoodWebApi/DataAccess/GoodFoodDbContext.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/.dockerignore" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Dockerfile" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/appsettings.json" />
-        <option value="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Models/OrderItem.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Models/Item.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Controllers/ItemController.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Models/Order.cs" />
+        <option value="$PROJECT_DIR$/GoodFoodWebApi/DataAccess/GoodFoodDbContext.cs" />
+        <option value="$PROJECT_DIR$/GoodFoodWebApi/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/GoodFoodWebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/GoodFoodWebApi/Controllers/OrderController.cs" />
       </list>
     </option>
@@ -114,7 +143,14 @@
       <workItem from="1613519916361" duration="3960000" />
       <workItem from="1613589086719" duration="4279000" />
       <workItem from="1613736261467" duration="1096000" />
-      <workItem from="1613737758077" duration="7992000" />
+      <workItem from="1613737758077" duration="12633000" />
+      <workItem from="1614256410906" duration="782000" />
+      <workItem from="1614952376152" duration="2061000" />
+      <workItem from="1615036068900" duration="1351000" />
+      <workItem from="1619020320389" duration="1834000" />
+      <workItem from="1619038067732" duration="1257000" />
+      <workItem from="1632683402915" duration="856000" />
+      <workItem from="1632684284395" duration="2169000" />
     </task>
     <servers />
   </component>
@@ -139,33 +175,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613746351505">
+    <state x="758" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632683831661">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1613746351505" />
-    <state x="772" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613520274699">
+    <state x="758" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1632683831661" />
+    <state width="979" height="172" key="GridCell.Tab.0.bottom" timestamp="1632686069014">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="772" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1613520274699" />
-    <state width="1363" height="274" key="GridCell.Tab.0.bottom" timestamp="1613767958389">
+    <state width="979" height="172" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1632686069014" />
+    <state width="979" height="172" key="GridCell.Tab.0.center" timestamp="1632686069014">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1363" height="274" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1613767958389" />
-    <state width="1363" height="274" key="GridCell.Tab.0.center" timestamp="1613767958389">
+    <state width="979" height="172" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1632686069014" />
+    <state width="979" height="172" key="GridCell.Tab.0.left" timestamp="1632686069014">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1363" height="274" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1613767958389" />
-    <state width="1363" height="274" key="GridCell.Tab.0.left" timestamp="1613767958389">
+    <state width="979" height="172" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1632686069014" />
+    <state width="979" height="172" key="GridCell.Tab.0.right" timestamp="1632686069014">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1363" height="274" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1613767958389" />
-    <state width="1363" height="274" key="GridCell.Tab.0.right" timestamp="1613767958389">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="1363" height="274" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1613767958389" />
-    <state x="878" y="231" key="SettingsEditor" timestamp="1613478739351">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="878" y="231" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1613478739351" />
+    <state width="979" height="172" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1632686069014" />
   </component>
 </project>
